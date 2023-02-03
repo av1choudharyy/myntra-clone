@@ -1,0 +1,29 @@
+.main {
+  /* padding: 2%; */
+  width: 100%;
+  /* height: 100vh; */
+  overflow: auto;
+}
+
+.card {
+  margin-top: 2%;
+  height: 330px;
+  width: 200px;
+  /* border: 1px solid; */
+}
+
+h5 {
+  margin-left: 2%;
+  margin-bottom: 0;
+  margin-top: 2%;
+  margin-right: 0;
+}
+
+.span {
+  margin-left: 2%;
+  margin-bottom: 0;
+  margin-top: 2%;
+  margin-right: 0;
+  font-weight: 250;
+  font-size: smaller;
+}
