@@ -5,7 +5,7 @@ import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
 import BookOutlinedIcon from "@mui/icons-material/BookOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 
-function Nav() {
+function Nav(props) {
   return (
     <div className="header">
       <img
@@ -28,6 +28,9 @@ function Nav() {
           type="text"
           className="searchbar"
           placeholder="Search for products, brands and more"
+          onChange={(e) => {
+            props.filter({ type: "search", searchParams: e.target.value });
+          }}
         ></input>
       </div>
       <div className="actions">

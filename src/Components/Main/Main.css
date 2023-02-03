@@ -1,17 +1,23 @@
 .main {
   /* padding: 2%; */
   width: 100%;
-  /* height: 100vh; */
-  overflow: auto;
+  height: calc(100vh - 210px);
+  overflow: scroll;
 }
 
 .card {
   margin-top: 2%;
   height: 330px;
   width: 200px;
+  margin-inline: 1%;
   /* border: 1px solid; */
 }
-
+.card:first-child {
+  margin-left: 2%;
+}
+.card:last-child {
+  margin-right: 2%;
+}
 h5 {
   margin-left: 2%;
   margin-bottom: 0;

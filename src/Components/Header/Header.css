@@ -27,3 +27,25 @@
 .margin-inline {
   margin-inline: 10%;
 }
+
+.modal {
+  font-size: small;
+  font-weight: 400;
+  height: 40px;
+  padding-left: 7%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.modal:first-child {
+  margin-top: 5%;
+}
+
+.modal:last-child {
+  margin-bottom: 5%;
+}
+
+.modal:hover {
+  background: #eeeeee;
+}
